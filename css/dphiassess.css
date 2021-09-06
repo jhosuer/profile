@@ -1,0 +1,57 @@
+@import 'landingpages.css';
+@import 'main.css';
+
+html, body {
+	background-color:  #BED5FF;
+}
+
+.image{
+	background: url('../img/project-1-resources/d/hero-img.png');
+	display: inline-block;
+	/*animation: changeimg 2s ease-in-out alternate infinite;*/
+}
+p, .header-text {
+	color:  #28313A;
+}
+.full-screen-body {
+	text-align:  center;
+}
+.more-info {
+	margin-top:  60px;
+}
+
+.full-screen .section-last {
+	max-width:  83.33%;
+	margin: 0 auto;
+	padding: 20px 0px ;
+}
+
+.conlusion {
+	background-color: #BED5FF;
+}
+.conlusion p {
+	color: #435261;
+}
+.conlusion h4 {
+	color: #504382;
+}
+.conlusion-last .content-1 p {
+	bottom:  83%;
+	left: 30%;
+	color: #BFC0C2;
+}
+.conlusion-last .content-1 h5 {
+	bottom:  77%;
+	left: 30%;
+}
+.content-2  h5 {
+	color:  #504382;
+	border-radius:  40px 0px 0px 40px;
+}
+.content-3 p, .content-3 h5 {
+	color:  #FF7547;
+}
+.content-3 p{
+	font-size:  16px;
+	opacity: 0.6;
+}

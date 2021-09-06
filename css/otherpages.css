@@ -1,0 +1,80 @@
+@import 'landingpages.css';
+@import 'main.css';
+@import 'business.css';
+
+html,body {
+	background-color: #F6F9FE;
+}
+.content-1-body {
+	border-radius: 4px;
+	/*background: url('img/project-1-resources/b/biz-land-preview.png');*/
+	background-color: #28313A;
+}
+/*.content-1 img {
+	width: 132px;
+	height:  200px;
+	object-fit: contain;
+	display: none;
+}*/
+.conlusion-last .content-1 p {
+	position:  absolute;
+	bottom: 60%;
+	font-size: 16px;
+	left: 10%;
+	text-align:  left;
+}
+.conlusion-last .content-1 h6 {
+	position:  absolute;
+	bottom:  40%;
+	/*left: 30%;*/
+	text-align:  left;
+}
+.conlusion-last .content-2 p {
+
+}
+
+.content-2-body {
+	border-radius: 0px 50px 50px 0px;
+	/*background: url('img/project-1-resources/b/biz-land-preview.png');*/
+	background-color: #28313A;
+}
+.content-1-body:hover, .content-2-body:hover, .content-3-body:hover {
+	box-shadow: 0px 16px 32px rgba(80, 57, 163, 0.4);
+}
+
+.content-2-body div {
+	height: 200px;
+}
+
+.content-2-body p {
+	text-align:  left;
+	position:  absolute;
+	bottom: 58%;
+	font-size: 16px;
+}
+.content-2-body h6 {
+	text-align:  left;
+	position:  absolute;
+	bottom:  30%;
+}
+.content-3-body {
+	border-radius: 50px 0px 0px 50px;
+	background-color: #FF7547;
+}
+.content-3-body p {
+	font-size: 16px;
+	text-align:  left;
+	position:  absolute;
+	bottom: 54%;
+	font-size: 16px;
+	color: #F6F9FE;
+	opacity:  0.6;
+}
+.content-3-body h6 {
+	text-align: left;
+	position:  absolute;
+	bottom:  24%;
+}
+h6 {
+	color:  white;
+}

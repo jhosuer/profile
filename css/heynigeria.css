@@ -1,0 +1,7 @@
+@import 'landingpages.css';
+@import 'main.css';
+@import 'dphiassess.css';
+@import 'churchvest.css';
+html, body {
+	background-color: #BED5FF;
+}

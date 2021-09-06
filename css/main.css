@@ -1,0 +1,491 @@
+@font-face {
+	font-family: "Wes FY W03";
+	src: url('../fonts/Wes FY W03 Black.ttf');
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: "Wes FY W03";
+	src: url('../fonts/Wes FY W03 Bold.ttf');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Wes FY W03";
+	src: url('../fonts/Wes FY W03 Medium.ttf');
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Wes FY W03";
+	src: url('../fonts/Wes FY W03 Regular.ttf');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Wes FY W03";
+	src: url('../fonts/Wes FY W03 Thin.ttf');
+	font-style: normal;
+	font-weight: 200;
+}
+html,body {
+	/*max-width: 740px;*/
+	max-width: 100%;
+	background-color: #5039A3;
+	box-sizing: content-box;
+}
+.navbar {
+	max-height: 120px;
+}
+.navbar img {
+	z-index: 1000;
+}
+.navbar ul {
+	list-style-type: none;
+	padding: 20px 0px;
+}
+.navbar ul li {
+	margin: 16px;
+	display: inline;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #5039A3;
+}
+.home ul li a {
+	text-decoration: none;
+	color: hsla(240, 67%, 98%, 0.9);
+}
+.hamburger {
+  display: none;
+  text-align:  right;
+}
+.home-container {
+	padding: 10px 0px;
+}
+.navlinks {
+	text-align: right;
+	padding: 0;
+}
+.navlinks ul li:last-child {
+	margin-right:  0px;
+}
+.left-top-pattern {
+	position: absolute;
+}
+.right-pattern-middle {
+	position: absolute;
+	left: 640px;
+	top: 100px;
+}
+.rubik-top-pattern-large {
+	position: absolute;
+	left: 640px;
+	top: 34spx;
+}
+.rubik-medium-pattern-middle {
+	position: absolute;
+	left: 640px;
+	top: 330px;
+}
+.rubik-top-pattern-small {
+	position: absolute;
+	left: 91px;
+	top: 120px;
+}
+.rubik-medium-middle {
+	position: absolute;
+	left: 580px;
+	top: 240px;
+}
+.rubik-smallest {
+	position: absolute;
+	left: 660px;
+	top: 512px;
+}
+section {
+	max-width:  83.33%;
+}
+
+h1 {
+	font-family: 'Wes FY W03';
+	font-size: 96px;
+	font-weight: 900;
+	line-height: 100%;
+	background: linear-gradient(246.91deg, #BED5FF -2.88%, #9FF7CF 114.62%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+h2 {
+	font-family: 'Wes FY W03';
+	font-size: 48px;
+	font-weight: 700;
+}
+h3 {
+	font-family: 'Wes FY W03';
+	font-size: 32px;
+	font-weight: 500;
+}
+h4 {
+	font-family: 'Wes FY W03';
+	font-size: 28px;
+	font-weight: 500;
+}
+
+h5 {
+	font-family: 'Wes FY W03';
+	font-size: 22px;
+	font-weight: 500;
+}
+
+h6 {
+	font-family: 'Wes FY W03';
+	font-size: 18px;
+	font-weight: 500;
+}
+
+p {
+
+ 	font-family: 'Wes FY W03';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+caption {
+
+ 	font-family: 'Wes FY W03';
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+a {
+	text-decoration: none;
+	color: #FF7547;
+}
+a:hover {
+	color:  #d5623b;
+	text-decoration:  none;
+}
+/*p.header-text {
+	width: 409px;
+	height: 150;
+
+}*/
+.header-span {
+	/*background-color: #F6F9FE;*/
+	color: hsla(240, 67%, 98%, 0.8);
+	/*opacity:  0.6;*/
+	max-width:  184px;
+	border-radius: 10px;
+	padding: 4px 16px;
+}
+.header-text {
+	color: hsla(240, 67%, 98%, 0.9);
+	margin-top: 24px;
+}
+
+.mouse {
+	text-align:  center;
+}
+.mouse img,.mouse svg {
+	margin-top:  600px;
+}
+
+.mouse svg path {
+	animation: fadeInFromNone 1s ease-in-out alternate infinite;
+}
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+  		display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        /*d: path('M23.5 22C23.5 25.2749 23.0568 28.2191 22.3541 30.3272C22.0019 31.3838 21.5935 32.2029 21.1643 32.7475C20.7306 33.2977 20.3334 33.5 20 33.5C19.6666 33.5 19.2694 33.2977 18.8357 32.7475C18.4065 32.2029 17.9981 31.3838 17.6459 30.3272C16.9432 28.2191 16.5 25.2749 16.5 22C16.5 18.7251 16.9432 15.7809 17.6459 13.6728C17.9981 12.6162 18.4065 11.7971 18.8357 11.2525C19.2694 10.7023 19.6666 10.5 20 10.5C20.3334 10.5 20.7306 10.7023 21.1643 11.2525C21.5935 11.7971 22.0019 12.6162 22.3541 13.6728C23.0568 15.7809 23.5 18.7251 23.5 22Z');*/
+        opacity: 1;
+    }
+}
+
+/*.mouse svg:hover path {
+	d: path('M23.5 22C23.5 25.2749 23.0568 28.2191 22.3541 30.3272C22.0019 31.3838 21.5935 32.2029 21.1643 32.7475C20.7306 33.2977 20.3334 33.5 20 33.5C19.6666 33.5 19.2694 33.2977 18.8357 32.7475C18.4065 32.2029 17.9981 31.3838 17.6459 30.3272C16.9432 28.2191 16.5 25.2749 16.5 22C16.5 18.7251 16.9432 15.7809 17.6459 13.6728C17.9981 12.6162 18.4065 11.7971 18.8357 11.2525C19.2694 10.7023 19.6666 10.5 20 10.5C20.3334 10.5 20.7306 10.7023 21.1643 11.2525C21.5935 11.7971 22.0019 12.6162 22.3541 13.6728C23.0568 15.7809 23.5 18.7251 23.5 22Z')
+}*/
+.hero-img {
+	text-align: right;
+	padding:  0;
+	margin: 10px 0px;
+}
+.hero-img .play-btn {
+	position: absolute;
+	bottom: 320px;
+	right: 175px;
+	/*animation: boxShadowExpand 2s ease-in-out alternate infinite;*/
+}
+
+.hero-img .play-btn.blur { 
+
+
+	background: background: hsla(253, 48%, 43%, 1);
+
+	animation: boxShadowExpand 2s ease-in-out alternate infinite;
+
+}
+@keyframes boxShadowExpand {
+    0% {
+        filter: blur(0px);
+    }
+
+    1% {
+        filter: blur(50px);
+    }
+
+    100% {
+        filter: blur(100px);
+        
+    }
+}
+
+
+.hero-text {
+	padding-top: 120px;
+
+}
+.ctas {
+	margin-top: 40px;
+}
+.ctas img {
+	margin-left: 16px;
+}
+.hero-text .ctas a {
+	width: 174px;
+	height: 56px;
+	border-radius: 50px;
+	font-size:  14px;
+	font-weight: 900;
+	text-decoration: none;
+	padding:  16px 32px;
+	margin-right: 24px;
+	color: #fff;
+}
+
+.hero-text .ctas a:first-child {
+	background-color: #FF7547;
+	border: 1px solid #FF7547;
+}
+.hero-text .ctas a:last-child {
+	border: 1px solid #FFFFFF;
+}
+
+/*.ctas a:hover a.blur {
+	opacity: 1;
+}*/
+
+.ctas a:first-child:hover, .ctas a:last-child:hover {
+	box-shadow: 0px 50px 100px rgba(80, 57, 163, 1);
+}
+
+
+/*ripple effect start*/
+
+/*ripple effect end*/
+
+
+
+@media screen and(max-width:  992px) {
+
+
+
+}
+
+@media screen and (max-width:  768px) {
+
+	section {
+	max-width:  100%;
+}
+
+
+	h1 {
+		font-family: 'Wes FY W03';
+		font-size: 48px;
+		font-weight: 900;
+		line-height: 100%;
+		background: linear-gradient(246.91deg, #BED5FF -2.88%, #9FF7CF 114.62%);
+		-webkit-background-clip: text;
+	  	-webkit-text-fill-color: transparent;
+	}
+
+	h2 {
+		font-family: 'Wes FY W03';
+		font-size: 24px;
+		font-weight: 700;
+	}
+
+	h3 {
+		font-family: 'Wes FY W03';
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	h4 {
+
+	}
+
+	h5 {
+
+	}
+
+	h6 {
+
+	}
+
+	p {
+
+	 	font-family: 'Wes FY W03';
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 150%;
+	}
+
+	.left-top-pattern {
+		position: absolute;
+		display:  none;
+	}
+	.right-pattern-middle {
+		position: absolute;
+		left: 640px;
+		top: 100px;
+		display:  none;
+		}
+	.rubik-top-pattern-large {
+		position: absolute;
+		left: 640px;
+		top: 34sspx;
+		display:  none;
+	}
+	.rubik-medium-pattern-middle {
+		position: absolute;
+		left: 640px;
+		top: 330px;
+		display:  none;
+	}
+	.rubik-top-pattern-small {
+		position: absolute;
+		left: 121px;
+		top: 30px;
+		display:  none;
+	}
+	.rubik-medium-middle {
+		position: absolute;
+		left: 580px;
+		top: 240px;
+		display:  none;
+	}
+	.rubik-smallest {
+		position: absolute;
+		left: 660px;
+		top: 512px;
+		display:  none;
+	}
+
+	.header-span {
+
+		/*background-color: #F6F9FE;*/
+		color: hsla(240, 67%, 98%, 0.8);
+		/*opacity:  0.6;*/
+		max-width:  184px;
+		border-radius: 10px;
+		padding: 4px 0px;
+	}
+
+	.header-text {
+		color: hsla(240, 67%, 98%, 0.9);
+		margin-top: 0px;
+		max-width: 240px;
+	}
+	.hero-text {
+		padding-top: 24px;
+
+	}
+	.ctas img {
+		margin-left: 4px;
+	}
+	
+	.hero-text .ctas a {
+		width: 174px;
+		height: 40px;
+		border-radius: 50px;
+		font-size:  14px;
+		font-weight: 900;
+		text-decoration: none;
+		padding:  12px 12px;
+		display: inline;
+		color: #fff;
+	}
+
+	.hero-text .ctas a:last-child {
+		display: block;
+		width: 174px;
+		word-break: keep-all;
+		margin-top:  24px;
+	}
+
+	.mouse {
+		display: none;
+	}
+
+	.hero-img {
+
+		text-align: left;
+		padding:  0px;
+		margin: 24px 0px 0px;
+	}
+
+	.hero-img img:first-child{
+		/*width: 240px;
+		height:  401.86px;*/
+		width: 260px;
+		height: auto;
+}
+	.hero-img a .play-btn {
+
+		width: 40px;
+		height: auto;		
+		animation: none;
+		top: 200px;
+	}
+
+	.hero-img .play-btn.blur { 
+
+		display: none;
+
+	}
+
+	/*.hamburger {
+	  display: inline;
+	  position: relative;
+	  bottom:  105px;
+	  width: 100%;
+	  padding: 0px;
+	  margin: 0px;
+	  text-align: right;
+	  cursor: pointer;
+	}*/
+	.hamburger img {
+		color: white;
+	}
+	.navbar ul li {
+		display: block;
+	  margin: 16px 0px;
+	}
+	.navlinks ul li {
+		text-align: left;
+	  background-color: #9FF7CF;
+	}
+}

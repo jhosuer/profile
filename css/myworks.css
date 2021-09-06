@@ -1,0 +1,97 @@
+@import 'main.css';
+
+html,body {
+	background-color: #F6F9FE;
+}
+section {
+	padding:  76px 0px;
+}
+
+h2 {
+	color: #504382;
+}
+
+p, .header-text, .header-span {
+	color:  #435261;
+}
+
+.work-2 {
+	margin-top:  64px;
+}
+
+.landing-page {
+	height: 261px;
+	width: 300px;
+	border-radius: 40px 0px 0px 40px;
+	background-color:  #28313A;
+	text-align: center;
+
+}
+.landing-page p {
+	position:  relative;
+	bottom: 100px;
+	color:  #fff;
+}
+.assess-page {
+	height: 261px;
+	width: 300px;
+	border-radius: 0px 40px 40px 0px;
+	background-color:  #28313A;
+	text-align: center;
+
+}
+.assess-page p {
+	position:  relative;
+	bottom: 100px;
+	color:  #fff;
+}
+.churchvest {
+	height: 261px;
+	width: 300px;
+	border-radius: 40px 0px 0px 40px;
+	background-color:  #28313A;
+	text-align: center;
+
+}
+.churchvest p {
+	position:  relative;
+	bottom: 100px;
+	color:  #fff;
+}
+
+.churchvest:hover {
+	box-shadow: 0px 16px 32px rgba(80, 57, 163, 0.6);
+}
+.hey {
+	height: 261px;
+	width: 300px;
+	border-radius: 0px 40px 40px 0px;
+	background-color:  #28313A;
+	text-align: center;
+
+}
+.hey p {
+	position:  relative;
+	bottom: 100px;
+	color:  #fff;
+}
+.text-description {
+	margin-top:  11px;
+}
+
+.work-1 a, .work-2 a {
+	text-decoration:  none;
+}
+.work-1 a:hover {
+	box-shadow: 0px 16px 32px rgba(80, 57, 163, 0.6);
+}
+/*.work-1 p, .work-1 caption {
+	position:  absolute;
+	bottom:  30px;
+	
+}*/
+
+.work-1 p:last-child, .work-2 p:last-child {
+	font-size:  12px;
+	bottom: 110px;
+}
