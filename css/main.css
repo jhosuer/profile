@@ -547,5 +547,18 @@ a:hover {
   }
   .hero-text .ctas a {
     font-size: 11px;
+    justify-content: center;
+  }
+  .hero {
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 34px 1px 1px 34px;
+  }
+  .hero-img {
+    border: 6px solid #866fd9;
+    border-radius: 40px 4px 4px 40px;
+  }
+  .img_wrap {
+    padding: 0 15px;
   }
 }

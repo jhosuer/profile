@@ -177,11 +177,61 @@ ul {
   font-size: 16px;
   opacity: 0.6;
 }
+.home ul li a {
+  color: #5039a3;
+}
+.hero-img {
+  border: 0;
+  border-radius: 0;
+}
 @media screen and (max-width: 768px) {
   .nav-list {
     background: #f6f9fe !important;
   }
   .home ul li a {
     color: #5039a3 !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .laptop-mockup,
+  img {
+    width: 100%;
+  }
+  .text-description {
+    margin-top: 0;
+  }
+  .laptop-mockup {
+    margin-bottom: 40px;
+  }
+  .hero-img,
+  section {
+    padding: 0.5rem 1.5rem;
+  }
+  .full-screen div:first-child {
+    max-width: none;
+    margin: 0;
+  }
+  .full-screen div ul {
+    padding: 0;
+  }
+  .full-screen {
+    padding-bottom: 25px;
+  }
+
+  .overview div:first-child,
+  .overview .right {
+    margin-bottom: 1.6rem;
+  }
+  .overview .right.last,
+  .assess-page,
+  .assess-page div {
+    margin-bottom: 0 !important;
+  }
+
+  .last-overview {
+    margin-top: 0;
+  }
+  .overview h3 {
+    padding-bottom: 0;
   }
 }
