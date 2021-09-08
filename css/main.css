@@ -345,6 +345,7 @@ a:hover {
     font-weight: 900;
     line-height: 100%;
     background: linear-gradient(246.91deg, #bed5ff -2.88%, #9ff7cf 114.62%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -455,34 +456,15 @@ a:hover {
     padding: 0px;
     margin: 0px;
   }
-
-  .hero-img img:first-child {
-    /*width: 240px;
-		height:  401.86px;*/
-    /* width: 260px;
-    height: auto; */
-  }
   .hero-img a .play-btn {
     width: 40px;
     height: auto;
     animation: none;
-    /* top: 200px; */
   }
 
   .hero-img .play-btn.blur {
     display: none;
   }
-
-  /*.hamburger {
-	  display: inline;
-	  position: relative;
-	  bottom:  105px;
-	  width: 100%;
-	  padding: 0px;
-	  margin: 0px;
-	  text-align: right;
-	  cursor: pointer;
-	}*/
   .hamburger img {
     color: white;
   }
