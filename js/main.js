@@ -1,16 +1,19 @@
 var y = document.querySelector('#hamburger');
-    y.addEventListener("click",myFunction);
-      // function () {myFunction()};
+y.addEventListener('click', myFunction);
 
-      function myFunction () {
-        var x = document.querySelector("#navbar");
-         if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-            // y.style.position = "relative";
-            // y.style.top = 70 + "px";
-          }
-        // console.log('yet');
-        // alert("hey");
-      }      
+// function myFunction() {
+//   var x = document.querySelector('#navbar');
+//   if (x.style.opacity == '1') {
+//     x.style.opacity = '0';
+//     x.style.display = 'none';
+//   } else {
+//     x.style.opacity = '1';
+//     x.style.display = 'block';
+//   }
+// }
+// let menu = document.querySelector('.menu');
+
+function myFunction() {
+  let mobileNavbar = document.querySelector('#navbar');
+  mobileNavbar.classList.toggle('toggle-menu');
+}
