@@ -114,6 +114,7 @@ h1 {
   font-weight: 900;
   line-height: 100%;
   background: linear-gradient(246.91deg, #bed5ff -2.88%, #9ff7cf 114.62%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -221,6 +222,7 @@ a:hover {
   text-align: right;
   padding: 0;
   margin: 10px 0px;
+  position: relative;
 }
 .hero-img .play-btn {
   position: absolute;
@@ -289,15 +291,54 @@ a:hover {
 /*ripple effect start*/
 
 /*ripple effect end*/
-
-@media screen and(max-width:  992px) {
+@media screen and (max-width: 1024px) {
+  .hero {
+    width: 100%;
+  }
+  .hero-img .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mouse {
+    max-width: 10%;
+  }
+  .hero-main {
+    justify-content: space-between;
+  }
+  .ctas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-text .ctas a {
+    width: 224px;
+  }
+  .hero-text .ctas a:first-child {
+    margin-bottom: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   section {
     max-width: 100%;
   }
-
+  .home-container,
+  .hero-main {
+    padding: 0 3rem;
+  }
+  .hero-main {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .hero-text .ctas a:first-child {
+    margin-bottom: 0;
+  }
+  .hero-text .ctas a {
+    display: flex;
+    align-items: center;
+  }
   h1 {
     font-family: 'Wes FY W03';
     font-size: 48px;
@@ -319,16 +360,6 @@ a:hover {
     font-size: 18px;
     font-weight: 500;
   }
-
-  h4 {
-  }
-
-  h5 {
-  }
-
-  h6 {
-  }
-
   p {
     font-family: 'Wes FY W03';
     font-size: 14px;
@@ -406,12 +437,10 @@ a:hover {
     font-weight: 900;
     text-decoration: none;
     padding: 12px 12px;
-    display: inline;
     color: #fff;
   }
 
   .hero-text .ctas a:last-child {
-    display: block;
     width: 174px;
     word-break: keep-all;
     margin-top: 24px;
@@ -424,20 +453,20 @@ a:hover {
   .hero-img {
     text-align: left;
     padding: 0px;
-    margin: 24px 0px 0px;
+    margin: 0px;
   }
 
   .hero-img img:first-child {
     /*width: 240px;
 		height:  401.86px;*/
-    width: 260px;
-    height: auto;
+    /* width: 260px;
+    height: auto; */
   }
   .hero-img a .play-btn {
     width: 40px;
     height: auto;
     animation: none;
-    top: 200px;
+    /* top: 200px; */
   }
 
   .hero-img .play-btn.blur {
@@ -464,5 +493,18 @@ a:hover {
   .navlinks ul li {
     text-align: left;
     background-color: #9ff7cf;
+  }
+}
+@media screen and (max-width: 528px) {
+  .hero-main {
+    flex-direction: column;
+  }
+  .home-container,
+  .hero-main {
+    padding: 0 1rem;
+  }
+  .hero-text {
+    padding-top: 0px;
+    margin-bottom: 3rem;
   }
 }
