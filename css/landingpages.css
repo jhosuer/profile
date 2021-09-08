@@ -93,21 +93,12 @@ ul {
 .overview div:first-child {
   text-align: center;
 }
-.overview .left {
-  /*text-align: left;*/
-}
-.overview .right {
-  /*text-align: center;*/
-}
 .overview h3 {
   padding-bottom: 40px;
 }
 
 .landing-page {
-  /*height: 240px;
-	width: 580px;*/
   border-radius: 40px 0px 0px 40px;
-  /*background-color:  #28313A;*/
   text-align: center;
 }
 .landing-page p {
@@ -122,10 +113,7 @@ ul {
   box-shadow: 0px 16px 32px rgba(80, 57, 163, 0.4);
 }
 .assess-page {
-  /*height: 240px;
-	width: 580px;*/
   border-radius: 0px 40px 40px 0px;
-  /*background-color:  #28313A;*/
   text-align: center;
 }
 .assess-page p {
@@ -152,11 +140,6 @@ ul {
 
 .modal-header button {
   color: white;
-}
-.conlusion img {
-}
-.conlusion-last {
-  /*text-align:  right;*/
 }
 .conlusion-last a {
   color: #ffffff;

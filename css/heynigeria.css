@@ -2,6 +2,30 @@
 @import 'main.css';
 @import 'dphiassess.css';
 @import 'churchvest.css';
-html, body {
-	background-color: #BED5FF;
+html,
+body {
+  background-color: #bed5ff !important;
+}
+.conlusion h4 {
+  color: #212529;
+}
+@media screen and (max-width: 768px) {
+  .nav-list {
+    background: #bed5ff !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .section-2,
+  .more-info,
+  .user-journey,
+  .full-screen {
+    padding: 0.5rem 1.5rem;
+  }
+  .conlusion-last {
+    padding: 0;
+  }
+  .container-fluid.full-screen {
+    margin-top: 0;
+  }
 }
