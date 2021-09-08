@@ -122,6 +122,9 @@ p,
     display: block;
     margin-bottom: 1rem;
   }
+  .work-2 {
+	  margin-top: 0
+  }
 }
 @media screen and (max-width: 425px) {
   .main_wrapper {
