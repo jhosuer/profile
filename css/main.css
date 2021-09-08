@@ -562,3 +562,7 @@ a:hover {
     padding: 0 15px;
   }
 }
+
+.modal-footer button[data-dismiss='modal'] {
+  display: none;
+}

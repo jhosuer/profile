@@ -9,12 +9,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/dphiassess.css">
+	<link rel="stylesheet" type="text/css" href="css/landingpages.css">
+
 </head>
 
 <body>
 	<section class="container-fluid">
-		<div class="row navbar">
+		<!-- <div class="row navbar">
 			<div class="col-md-3">
 				<img src="img/logo.svg" alt="logo">
 			</div>
@@ -26,6 +29,30 @@
 					<li><a href="#">Email</a></li>
 
 				</ul>
+			</div>
+		</div> -->
+		<div class="row navbar">
+			<div class="col-md-3">
+				<a href="/"> <img src="img/logo.svg" alt="logo"> </a>
+			</div>
+			<div class="navlinks home navlinks" id="navbar">
+				<ul class="d-flex nav-list">
+					<li><a href="#">Linkedin</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Resume</a></li>
+					<li><a href="#">Email</a></li>
+
+				</ul>
+			</div>
+			<div class="col-md-1 offset-md-1 hamburger">
+				<!-- start hamburger -->
+				<a href="#" id="hamburger">
+					<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+						clip-rule="evenodd" alt="hamburger menu" fill="#000">
+						<path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2" />
+						<path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" /></svg>
+				</a>
+				<!-- end hamburger -->
 			</div>
 		</div>
 	</section>
@@ -44,7 +71,7 @@
 				</div>
 			</div>
 			<div class="col-md-6 hero-img">
-				<img src="img/video-overlay.png" alt="Joshua">
+				<img src="img/video-overlay.png" alt="Joshua" class="hero">
 				<a href="#"><img src="img/play-button-white.svg" class="play-btn" alt="play button"></a>
 			</div>
 		</div>
@@ -471,7 +498,7 @@
 						usability test, we had to do an internal one).</em><br>
 				</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 pross">
 				<h4>The Handoff Process</h4>
 				<p class="header-text">A couple more meetings were held in between, eventually, we came to a unilateral
 					agreement of moving forward to development.<br><br>
@@ -564,6 +591,8 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
 	</script>
+	<script src="./js/main.js"></script>
+
 </body>
 
 </html>

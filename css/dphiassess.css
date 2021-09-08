@@ -1,57 +1,76 @@
 @import 'landingpages.css';
 @import 'main.css';
 
-html, body {
-	background-color:  #BED5FF;
+html,
+body {
+  background-color: #bed5ff;
 }
 
-.image{
-	background: url('../img/project-1-resources/d/hero-img.png');
-	display: inline-block;
-	/*animation: changeimg 2s ease-in-out alternate infinite;*/
+.image {
+  background: url('../img/project-1-resources/d/hero-img.png');
+  display: inline-block;
+  /*animation: changeimg 2s ease-in-out alternate infinite;*/
 }
-p, .header-text {
-	color:  #28313A;
+p,
+.header-text {
+  color: #28313a;
 }
 .full-screen-body {
-	text-align:  center;
+  text-align: center;
 }
 .more-info {
-	margin-top:  60px;
+  margin-top: 60px;
 }
 
 .full-screen .section-last {
-	max-width:  83.33%;
-	margin: 0 auto;
-	padding: 20px 0px ;
+  max-width: 83.33%;
+  margin: 0 auto;
+  padding: 20px 0px;
 }
 
 .conlusion {
-	background-color: #BED5FF;
+  background-color: #bed5ff;
 }
 .conlusion p {
-	color: #435261;
+  color: #435261;
 }
 .conlusion h4 {
-	color: #504382;
+  color: #504382;
 }
 .conlusion-last .content-1 p {
-	bottom:  83%;
-	left: 30%;
-	color: #BFC0C2;
+  bottom: 83%;
+  left: 30%;
+  color: #bfc0c2;
 }
 .conlusion-last .content-1 h5 {
-	bottom:  77%;
-	left: 30%;
+  bottom: 77%;
+  left: 30%;
 }
-.content-2  h5 {
-	color:  #504382;
-	border-radius:  40px 0px 0px 40px;
+.content-2 h5 {
+  color: #504382;
+  border-radius: 40px 0px 0px 40px;
 }
-.content-3 p, .content-3 h5 {
-	color:  #FF7547;
+.content-3 p,
+.content-3 h5 {
+  color: #ff7547;
 }
-.content-3 p{
-	font-size:  16px;
-	opacity: 0.6;
+.content-3 p {
+  font-size: 16px;
+  opacity: 0.6;
+}
+@media screen and (max-width: 430px) {
+  .text-description {
+    padding: 0.5rem 1.5rem;
+  }
+  .pross {
+    padding: 0;
+  }
+  .full-screen .section-last {
+    padding: 0;
+    max-width: none;
+    margin: 0;
+  }
+  .conlusion.full-screen {
+    margin-top: 0;
+  }
 }
