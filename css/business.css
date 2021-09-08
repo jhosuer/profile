@@ -1,35 +1,36 @@
 @import 'landingpages.css';
 @import 'main.css';
 
-html,body {
-	background-color: #D5D9E5;
+html,
+body {
+  background-color: #d5d9e5 !important;
 }
 
 h3 {
-	color:  #435261;
+  color: #435261;
 }
 a {
-	text-decoration:  none;
+  text-decoration: none;
 }
 .header-text {
-	color: #435261;
+  color: #435261;
 }
 .hero-img .play-btn {
-	position: absolute;
-	bottom: 450px;
-	right: 175px;
-	/*animation: boxShadowExpand 2s ease-in-out alternate infinite;*/
+  position: absolute;
+  bottom: 450px;
+  right: 175px;
+  /*animation: boxShadowExpand 2s ease-in-out alternate infinite;*/
 }
 .conlusion-last .content-1 p {
-	bottom:  77%;
-	left: 30%;
+  bottom: 77%;
+  left: 30%;
 }
 .conlusion-last .content-1 h5 {
-	bottom:  65%;
-	left: 30%;
+  bottom: 65%;
+  left: 30%;
 }
 h5 {
-	color: white;
+  color: white;
 }
 /*.conlusion-last .content-2 p {
 	position:  absolute;
@@ -42,7 +43,7 @@ h5 {
 	left: 30%;
 }*/
 .text-description a {
-	text-decoration:  none;
+  text-decoration: none;
 }
 
 /*.content-1 img,.content-2 img {
@@ -56,6 +57,32 @@ h5 {
 	background-color: #FF7547;
 	border-radius: 50px 0px 0px 50px;
 }*/
-.nextpage p, .nextpage h5 {
-	color: #FF7547;
+.nextpage p,
+.nextpage h5 {
+  color: #ff7547;
+}
+@media screen and (max-width: 768px) {
+  .nav-list {
+    background: #d5d9e5 !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .hero-img {
+    border: 0;
+    border-radius: 0;
+  }
+  .hero-img,
+  .more-info,
+  .user-journey,
+  .full-screen {
+    padding: 0.5rem 1.5rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .conlusion-last {
+    padding: 0;
+  }
+  .container-fluid.full-screen {
+    margin-top: 0;
+  }
 }
