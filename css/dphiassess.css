@@ -58,6 +58,14 @@ p,
   font-size: 16px;
   opacity: 0.6;
 }
+.navbar ul li a {
+  color: #5039a3;
+}
+@media screen and (max-width: 768px) {
+  .nav-list {
+    background: #bed5ff !important;
+  }
+}
 @media screen and (max-width: 430px) {
   .text-description {
     padding: 0.5rem 1.5rem;

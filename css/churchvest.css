@@ -1,22 +1,28 @@
 @import 'landingpages.css';
 @import 'main.css';
 @import 'dphiassess.css';
-html, body {
-	background-color: #F6F9FE;
+html,
+body {
+  background-color: #f6f9fe !important;
 }
 .user-journey {
-	background-color: #866FD9;
+  background-color: #866fd9;
 }
 .full-screen div:first-child {
-	padding: 20px 0px ;
+  padding: 20px 0px;
 }
 .user-journey div:first-child {
-	padding: 0px 0px ;	
+  padding: 0px 0px;
 }
 .user-journey h3 {
-	margin-top:  60px;
-	color: #fff;
+  margin-top: 60px;
+  color: #fff;
 }
 .user-journey .last-overview {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+  .nav-list {
+    background: #f6f9fe !important;
+  }
 }
