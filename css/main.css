@@ -552,3 +552,18 @@ a:hover {
     margin-bottom: 3rem;
   }
 }
+@media screen and (max-width: 425px) {
+  .header-text {
+    max-width: none;
+  }
+  .ctas {
+    flex-direction: row;
+  }
+  .hero-text .ctas a:last-child {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .hero-text .ctas a {
+    font-size: 11px;
+  }
+}
