@@ -30,12 +30,8 @@ body {
   /*left: 30%;*/
   text-align: left;
 }
-.conlusion-last .content-2 p {
-}
-
 .content-2-body {
   border-radius: 0px 50px 50px 0px;
-  /*background: url('img/project-1-resources/b/biz-land-preview.png');*/
   background-color: #28313a;
 }
 .content-1-body:hover,
@@ -89,5 +85,14 @@ h6 {
   }
   .nav-list {
     background: #f6f9fe !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .content-2-body,
+  .content-1-body {
+    height: 7rem;
+  }
+  .overview div:first-child {
+    margin-bottom: 0;
   }
 }
