@@ -1,0 +1,120 @@
+@import 'main.css';
+
+body {
+  background-color: #FAFCFE;
+}
+.home ul li a {
+  text-decoration: none;
+  color: #504382;
+}
+.navbar img {
+	max-width: 40px;
+}
+
+.back a {
+	/*position: relative;
+	top: 50px;*/
+	color: hsla(210, 18%, 19%, 0.5);
+}
+.back img {
+	color: hsla(210, 18%, 19%, 0.5);
+	max-width: 16px;
+}
+
+.hero-text p:first-child {
+	color: #BFC0C2;
+}
+.hero-text h2 {
+	color: #504382;
+}
+.header-text {
+	color: #435261;
+}
+.hero-text .ctas a:first-child {
+  background-color: transparent;
+  color: #ff7547;
+  border: 1px solid #ff7547;
+}
+
+.ctas a:first-child:hover,
+.ctas a:last-child:hover {
+  box-shadow: 0px 16px 32px rgba(80, 57, 163, 0.24);
+}
+
+.stroke {
+	width: 100px;
+	height: 6px;
+	background-color: #BFC0C2;
+	display:  inline-block;
+}
+
+.dl-image-container a {
+	color: #BFC0C2;
+}
+/*.stroke:nth-child(1) {
+	background-color: #FF7547;
+}*/
+.dl-image-container a:first-child span {
+	background-color: #FF7547;
+	/*animation: inclength 2s ease-in alternate infinite;*/
+	animation: inclength 2s ease-in alternate;
+}
+
+@keyframes inclength {
+	 from {
+	 	max-width: 50px;
+	 }
+	 to {
+	 	max-width: 100px;
+	 }
+}
+.dl-image-container {
+	text-align:  right;
+	padding: 0;
+}
+.dl-image-2 {
+	width: 100%;
+	height: 400px;
+	background: url('../img/dl-screen-2.png') no-repeat;
+	background-size: contain;
+	/*border-radius: 4px;
+	background-color: #C3B3FE;
+	margin:  0 auto;
+	text-align:  center;*/
+	margin-top: 80px;
+}
+
+/*.dl-image {
+	max-width: 522.45px;
+	height: 320px;
+	background-size: contain;
+	background: url('../img/dl-screen.png');
+	text-align: center;
+}*/
+@media screen and (max-width: 768px) {
+	.navlinks ul {
+	  background-color: #E5F0FA;
+	}
+	.dl-image-container {
+		/*background-color:  red;*/
+		text-align:  left;
+		/*margin-left: 24px;*/
+		display: flex;
+		justify-content: safe center;
+		padding: 32px 0px;
+	}
+	.hero-text {
+		text-align: left;
+	}
+	.ctas {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.ctas a:last-child {
+		margin: 0;
+	}
+	.dl-image-2 {
+		margin-top: 0px;	
+		width: 94%;
+	}
+}

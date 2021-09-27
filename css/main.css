@@ -33,8 +33,22 @@ body {
   /*max-width: 740px;*/
   max-width: 100%;
   background-color: #5039a3;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  scroll-behaviour : smooth;
 }
+
+[data-scroll] {
+  transition: all 2s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+  transform: translateX(0);
+}
+[data-scroll="out"] {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+
 .navbar {
   max-height: 120px;
 }
@@ -106,6 +120,7 @@ body {
 }
 section {
   max-width: 83.33%;
+  
 }
 
 h1 {
@@ -323,15 +338,17 @@ a:hover {
 @media screen and (max-width: 768px) {
   section {
     max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
   .home-container,
   .hero-main {
     padding: 0 3rem;
   }
-  .hero-main {
+  /*.hero-main {
     flex-wrap: nowrap;
     align-items: center;
-  }
+  }*/
   .hero-text .ctas a:first-child {
     margin-bottom: 0;
   }
@@ -447,6 +464,23 @@ a:hover {
     margin-top: 24px;
   }
 
+  .hero-main h1, .hero-main p {
+    max-width: 90%;
+  }
+  .ctas {
+    display: flex;
+    flex-direction: row;
+  }
+  .ctas a {
+    display: flex;
+    justify-content: safe center;
+  }
+  .ctas a:last-child {
+    position: relative;
+    /*bottom:  25px;*/
+    margin: 0 auto;
+  }
+
   .mouse {
     display: none;
   }
@@ -455,6 +489,11 @@ a:hover {
     text-align: left;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    justify-content: center;
+    border: none;
+   /* max-height: 400px;
+    background-size: 100% 100%;*/
   }
   .hero-img a .play-btn {
     width: 40px;
@@ -466,18 +505,113 @@ a:hover {
     display: none;
   }
   .hamburger img {
+    width: 40px;
     color: white;
+    position: absolute;
+    bottom: 150px;
+    position:  relative;
+    right: 5%;
+    top: 34px;
+    z-index: 1000;
+    animation:  color 2s ease-in alternate infinite;
   }
   .navbar ul li {
     display: block;
     margin: 16px 0px;
+    position:  relative;
+    left: 3%;
+    z-index: 1000;
+    animation: slowopen2 6s ease-in-out;
+    /*display: none;*/
+  }
+  .logohome img {
+    margin-top: 24px;
+    z-index: 99999;
   }
 
+  @keyframes color {
+    from {
+      color: red;
+      opacity: 0.4;
+    }
+    to {
+      color: #B1E2EC;
+      opacity: 1;
+    }
+  }
   .hamburger {
     display: block;
     width: auto;
+    position:  relative;
+    left: 85%;
+    bottom: 300px;
+    text-align: left;
   }
-  #navbar {
+  .hamburger a {
+    display: block;
+    margin-top: 240px;
+
+  }
+  .hamburger a img {
+    display: block;
+    /*margin-top: 230px;*/
+    position: fixed;
+    /*right: 400px;*/
+    margin: 0;
+    padding:  0;
+  }
+.navlinks {
+  /*display: none;*/
+  width: 92%;
+  margin: 0px auto;
+  padding: 0px;
+} 
+.navlinks ul {
+  width: 100%;
+  padding: 0;
+  background-color: #4A3597;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top:  0px;
+  right: 0px;
+  /*animation: slowopen 2s ease-in-out;*/
+}
+.navlinks ul li {
+  /*position: relative;
+  display: block;
+  margin: 20px;*/
+}
+.linksonly ul li{
+  display: none;
+  margin-left: 24px;
+  animation: slowopen2 2s ease-in-out;
+}
+
+@keyframes slowopen {
+  from {
+    opacity: 0.6;
+    height: 100px;
+  }
+  to {
+    opacity: 1;
+    height: 200px;
+  }
+}
+@keyframes slowopen2 {
+  from {
+    opacity: 0.6;
+    margin-left: 0px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 24px;
+  }
+}
+
+  /*ejiros commented out here*/
+  /*#navbar {
     opacity: 0;
     position: absolute;
   }
@@ -519,7 +653,8 @@ a:hover {
     -webkit-transform: translateX(-100%);
     transform: translateX(0);
     -webkit-transform: translateX(0);
-  }
+  }*/
+  /*comment ends*/
 }
 @media screen and (max-width: 528px) {
   .hero-main {
@@ -555,7 +690,7 @@ a:hover {
     border-radius: 34px 1px 1px 34px;
   }
   .hero-img {
-    border: 6px solid #866fd9;
+    /*border: 6px solid #866fd9;*/
     border-radius: 40px 4px 4px 40px;
   }
   .img_wrap {

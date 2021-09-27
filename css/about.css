@@ -1,0 +1,33 @@
+@import 'main.css';
+@import 'dphiassess-detail.css';
+
+
+html,body {
+	height: 100%;
+}
+.logo img {
+	max-width: 40px;
+}
+.comingsoon img {
+  z-index: 0;
+  max-width: 64px;
+}
+
+@media screen and (max-width: 768px) {
+	.comingsoon {
+
+		/*padding: 24px 0px;*/
+	}
+	.comingsoon h4 {
+		position: relative;
+		bottom: 35px;
+	}
+	.comingsoon p {
+		position: relative;
+		bottom: 25px;
+	}
+	.comingsoon img {
+		position: relative;
+		bottom: 30px;
+	}
+}

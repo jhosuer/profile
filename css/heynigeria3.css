@@ -1,0 +1,56 @@
+@import 'main.css';
+@import 'dphiassess-detail.css';
+@import 'dphiassesspage.css';
+
+body, html {
+	background-color: #C3CCD5;
+}
+.userpersona1 {
+	background-color: #A7AFC8;
+}
+.userpersona1 p {
+	color: #435261;
+}
+.userpersona2 {
+	background-color: transparent;
+}
+.wicd {
+	margin-bottom: 104px;
+}
+.hfd1 {
+	background-color: #BFC0C2;
+}
+.hfd2 {
+	background-color: #28313A;
+	color: #F5F5FD;
+}
+.hfd3 {
+	background-color:  #28313A;
+	color: #F6F9FE;
+}
+.hfd4 {
+	margin-top: 104px;
+}
+.next {
+	text-align: left;
+}
+.next p, .next a {
+	color: #504382;
+}
+.next a {
+	font-weight: medium;
+}
+
+.navbar ul li a {
+  color: #5039a3;
+}
+.back a {
+	color: #5039a3;
+}
+@media screen and (max-width: 768px) {
+
+	.navlinks ul {
+		background-color: #DBE0E6;
+	}
+
+}

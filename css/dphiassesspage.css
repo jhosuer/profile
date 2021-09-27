@@ -1,0 +1,112 @@
+@import 'main.css';
+@import 'dphiassess-detail.css';
+
+body, html {
+	background-color: #866FD9;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #F5F5FD;
+}
+
+.back a {
+	color: #F5F5FD;
+}
+.topsection2 {
+	margin-top: 56px;
+}
+.userpersona {
+	background-color: #C3B3FE;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 104px;
+}
+.userpersona1 {
+	background-color: #5039A3;
+}
+.userpersona1 img {
+	max-width: 480px;
+}
+.userpersona1 p {
+	text-align: left;
+	margin-top: 10px;
+	color: #F5F5FD;
+}
+.userpersona2 {
+	margin-top: 0px;
+	background-color: #C3B3FE;
+	
+}
+.userpersona2 p {
+	color: #435261;
+	margin-top: 120px;
+}
+.dtpf p:last-child {
+	max-width: 715px;
+}
+.dtpf {
+	display: flex;
+	justify-content: center;
+}
+.fipm {
+	display: flex;
+	justify-content: center;
+}
+.fipm p:last-child {
+	max-width: 740px;
+}
+.ia-assess {
+	margin-top: 104px;
+}
+.ia-assess img {
+	max-width: 480px;
+}
+.ia-assess p {
+	margin-top: 30px;
+}
+.sketch {
+	margin-top: 0px;
+}
+.sketch p {
+	margin-top: 30px;
+}
+.userpersona4 {
+	background-color: transparent;
+}
+.userpersona4 p {
+	color: #435261;
+}
+.userpersona4 img {
+	max-width: 550px;
+}
+.hfd {
+	margin: 0;
+	padding: 0;
+}
+.hfd1 img{
+	margin-top: 30px;
+}
+.next {
+	text-align: left;
+}
+.next p, .next a {
+  color: #F5F5FD;
+}
+.next a {
+	font-weight: medium;
+}
+.next .last {
+	text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+
+	.text img, .userpersona2 img {
+		display: none;
+	}
+	.next .last {
+	text-align: left;
+	margin-top: 64px;
+}
+
+}

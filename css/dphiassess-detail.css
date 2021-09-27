@@ -1,0 +1,198 @@
+@import 'main.css';
+
+
+body,html {
+	background-color: #C2B2FE;
+	box-sizing: border-box;
+}
+a {
+	color: #CC3300;
+}
+.logo img {
+	max-width: 40px;
+}
+.parent {
+	/*max-width: 1200px;*/
+	background-size:  contain;
+	background-color:  #FAFCFE;
+	margin-top: 20px;
+	text-align:  center;
+	padding:  48px 0px;
+	box-sizing: border-box;
+}
+.parent .caption h2 {
+	color: #504382;
+}
+.parent .caption p {
+	color: #BFC0C2;
+}
+.back {
+	margin-top: 40px;
+}
+.back a img {
+	margin-right: 8px;
+	width: 16px;
+	height: 16px;
+}
+.navbar ul li a {
+  color: #504382;
+}
+
+.parent .topsection img {
+	max-width: 400px;
+	height: auto;
+	background-size: contain;
+	margin: 56px 0px;
+}
+.parent .topsection p {
+	position: relative;
+	bottom:  30px;
+	color: #435261;
+}
+
+.parent .topsection img:hover {
+	box-shadow: 0px 16px 32px 0px hsla(253, 48%, 43%, 0.24);
+	border: 4px solid hsla(15, 100%, 64%, 1);
+}
+.text p {
+
+	max-width: 443px;
+	text-align:  left;
+	color: #435261;
+}
+.text p:first-child {
+	margin-top: 104px;
+	color: #BFC0C2;
+	margin-left: 60px;
+}
+.text .top .props {
+	margin-left:  80px;
+}
+.text2 .top .h3 {
+	margin-top: 104px;
+	margin-bottom: 24px;
+	color: #504382;
+	font-size:  32px;
+
+}
+ .text2 .top .h3, .text .top p:last-child {
+	margin-left: 80px;
+}
+.text p:last-child {
+	max-width: 429px;
+	margin-left: 60px;
+	color: #435261;
+
+}
+.text2 p {
+	margin-left: 80px;
+}
+.text2 .top img {
+	margin-left: 70%;
+}
+.userpersona {
+	background-color: #9FF7CF;
+	/*margin-top: 104px;
+	padding: 48px 0px;*/
+	margin: 0px;
+	padding: 104px 0px;
+
+}
+.userpersona p {
+	text-align: left;
+	max-width: 321px;
+	margin-top: 141px;
+}
+.userpersona2 {
+	background-color: transparent;
+}
+.userpersona3 {
+	background-color: #28313A;
+}
+.userpersona3 p {
+	color: #F6F9FE;
+}
+.userpersona3 img {
+	max-width: 750px;
+	height: auto;
+}
+.userpersona4 {
+	background-color: #866FD9;
+	margin-top: 0px;
+}
+.conclusion {
+	margin: 0 auto;
+}
+.conclusion p {
+	width: 679px;
+}
+.next {
+	padding: 72px 0px;
+	text-align: center;
+}
+.next p {
+	color: #435261;
+	opacity: 0.6;
+}
+.next a {
+	font-size: 28px;
+}
+.next a {
+	font-weight: medium;
+}
+.active {
+	box-shadow: 0px 16px 32px 0px hsla(253, 48%, 43%, 0.24);
+	border: 4px solid hsla(15, 100%, 64%, 1);
+}
+@media screen and (max-width: 768px) {
+	.navlinks ul {
+	  background-color: #AF9AFE;
+	}
+	.navbar ul li a {
+		color: #FAFCFE;
+	}
+	.parent {
+		/*text-align: center;*/
+		width: 94%;
+	}
+	.parent .topsection {
+		display: flex;
+		justify-content: safe center;
+	}
+	.parent img {
+		width: 94%;
+	}
+	.text .top .props {
+		margin-left: 24px;
+	}
+	.text2 .top .h3, .text .top p:last-child {
+		margin-left: 24px;
+		width: 90%;
+	}
+	.text p:first-child {
+		margin-left: 24px;
+	}
+	.text p:last-child {
+		margin-left: 24px;
+		width: 90%;
+	}
+	.text2 .top .h3 {
+		margin-left: 24px;
+	}
+	.text2 p {
+		margin-left: 24px;
+		width: 90%;
+	}
+	.text2 .top img {
+		display: none;
+	}
+	.userpersona {
+		padding: 24px 0px;
+	}
+	.userpersona p {
+		margin-top: 32px;
+	}
+	.next p {
+		margin-left: 24px;
+	}
+}

@@ -1,0 +1,73 @@
+@import 'main.css';
+@import 'worksummary.css';
+
+body {
+  background-color: #435261;
+}
+.hero-text p:first-child {
+	color: #BFC0C2;
+}
+.hero-text h2 {
+	color: #F5F5FD;
+}
+.header-text {
+	color: #F5F5FD;
+}
+.back a {
+	color: #F5F5FD;
+	/*position: absolute;
+	top: 10px;*/
+}
+
+.back img {
+	color: hsla(210, 18%, 19%, 0.5);
+	max-width: 16px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #F5F5FD;
+}
+
+.stroke {
+	background-color: #FF7547;
+}
+.dl-image-2 {
+	width: 100%;
+	height: 400px;
+	background: url('../img/hn-screen.png') no-repeat;
+	background-size: contain;
+	margin-top: 80px;
+}
+
+.dl-image-container a span {
+	background-color: #FF7547;
+	/*animation: inclength 2s ease-in alternate infinite;*/
+	animation: inclength 2s ease-in alternate;
+}
+.hero-text .ctas a:first-child {
+  background-color: transparent;
+  color: #F5F5FD;
+  border: 1px solid #F5F5FD;
+}
+@media screen and (max-width: 768px) {
+
+	.header-text p {
+    max-width: 90%;
+  }
+
+  .dl-image-2 {
+  	margin-top: 0;
+  }
+  .navlinks ul {
+  	background-color: #384551;
+  }
+  .dl-image-container a{
+  	/*width: 60px;*/
+  	margin-left: 24px;
+  	/*background-color: green;*/
+  	display: flex;
+  	justify-content: safe center;
+  	margin: 0 auto;
+  }
+
+}

@@ -1,0 +1,14 @@
+@import 'main.css';
+@import 'dphiassess-detail.css';
+
+.userpersona2 p {
+	margin-top:  70px;
+}
+.bizlpconclusion {
+	margin-bottom: 104px;
+}
+@media screen and (max-width: 768px) {
+	.text2 img {
+		display: none;
+	}
+}
